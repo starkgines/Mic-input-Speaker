@@ -25,7 +25,7 @@ def predict(user_input):
     :arg
         user_input (string): input of the user
     :return
-        response: for gradio chat app
+        response: string with the last response of chatGPT
     """
 
     message_history.append({
